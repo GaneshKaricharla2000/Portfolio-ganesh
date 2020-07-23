@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+nav{
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.25);
+    width:100%;
+    float:right;
+    
+}
+nav > a{
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    padding:5px 80px;
+    text-align: right;
+}
+.home{
+    margin: 0rem;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+.name{
+    color:white;
+    padding:20rem 0rem  0rem 10rem;
+    font-size: 200%;
+}
+.name-main{
+    color:#FFFF00;
+}
+.nametag{
+    color:white;
+    padding:0rem 0rem  12rem 10rem;
+}
+.nametag-sub{
+    color:red;
+    background-color: white;
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+
+}
