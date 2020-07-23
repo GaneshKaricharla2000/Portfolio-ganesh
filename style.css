@@ -3,19 +3,20 @@ body{
 }
 nav{
     padding: 10px 10px;
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255,255,255,1);
     width:100%;
     float:right;
+    position: fixed;
     
 }
 nav > a{
     text-decoration: none;
-    color:white;
+    color:rgba(11, 26, 240, 0.808);
     font-weight: 400;
     padding:5px 80px;
     text-align: right;
 }
-.home{
+#home{
     margin: 0rem;
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
@@ -39,4 +40,15 @@ nav > a{
     padding: 0.2rem;
     margin-left: 0.5rem;
 
+}
+#aboutme
+{
+    margin: 0px;
+    background-color: grey;
+    padding: 3% 10%;
+}
+.aboutme-head
+{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
 }
