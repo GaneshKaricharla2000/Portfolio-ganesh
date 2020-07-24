@@ -4,7 +4,7 @@
   }
   .timeline {
     position: relative;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     font-family: cursive;
   }
@@ -102,5 +102,5 @@
     list-style:none;
 }
 .contentlist >li{
-    padding:0px 0px 20px 0px;
+    padding:0px 0px 10px 0px;
 }
