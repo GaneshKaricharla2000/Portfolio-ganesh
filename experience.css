@@ -1,12 +1,27 @@
-  /* The actual timeline (the vertical ruler) */
-  #experience{
+#experience{
     background-color: gold;
   }
+.startexp{
+  color:gold;
+  margin:0px;
+  padding:4px;
+  }
+.xperience{
+  float:right;
+  font-size: 110px;
+  padding:0px;
+  margin: 0px;
+  color:rgba(255,255,255,1)
+  }
+.xperience >span{
+  color:rgba(156, 156, 156, 0.6)
+}
   .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     font-family: cursive;
+    padding:25px 0px;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -15,8 +30,8 @@
     position: absolute;
     width: 6px;
     background-color: white;
-    top: 0;
-    bottom: 0;
+    top: 0px;
+    bottom: 0px;
     left: 50%;
     margin-left: -3px;
   }
@@ -38,7 +53,7 @@
     right: -17px;
     background-color: white;
     border: 4px solid #FF9F55;
-    top: 15px;
+    top: 50px;
     border-radius: 50%;
     z-index: 1;
   }
@@ -58,10 +73,10 @@
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 55px;
     width: 0;
     z-index: 1;
-    right: 30px;
+    right: 20px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
@@ -72,10 +87,10 @@
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 55px;
     width: 0;
     z-index: 1;
-    left: 30px;
+    left: 20px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
@@ -89,7 +104,7 @@
   /* The actual content */
   .content {
     padding: 20px 20px;
-    background-color: white;
+    background-color: #A7EBEB;
     position: relative;
     border-radius: 6px;
   }
