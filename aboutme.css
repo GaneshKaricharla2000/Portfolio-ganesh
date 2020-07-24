@@ -1,0 +1,18 @@
+#aboutme
+{
+    margin: 0px;
+    background-color: grey;
+    padding: 10% 10%;
+    overflow: auto;
+}
+.aboutme-head
+{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutme-text1,.aboutme-text2
+{
+    font-size:150%;
+    color:white;
+    text-align: justify;
+}
