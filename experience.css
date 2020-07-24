@@ -4,7 +4,7 @@
   }
   .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     font-family: cursive;
   }
@@ -88,9 +88,19 @@
   
   /* The actual content */
   .content {
-    padding: 20px 30px;
+    padding: 20px 20px;
     background-color: white;
     position: relative;
     border-radius: 6px;
   }
-  
+.fas
+{
+    color:black;
+    padding:0px 20px 0px 0px;
+}
+.contentlist{
+    list-style:none;
+}
+.contentlist >li{
+    padding:0px 0px 20px 0px;
+}
