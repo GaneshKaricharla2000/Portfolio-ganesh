@@ -9,33 +9,39 @@ nav{
     padding: 10px 10px;
     background-color: rgba(255,255,255,1);
     width:100%;
-    float:right;
     position: fixed;
 }
 nav > a{
     text-decoration: none;
     color:rgba(11, 26, 240, 0.808);
-    font-weight: 400;
-    padding:5px 80px;
+    font-weight: 800;
+    padding:10px 80px;
     text-align: right;
+}
+nav > a:hover{
+    background-color:rgba(11, 26, 240, 0.808);
+    color:white;
 }
 #home{
     margin: 0rem;
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    overflow: auto;
 }
 .name{
     color:white;
-    padding:20rem 0rem  0rem 10rem;
+    padding:18rem 0rem  0rem 10rem;
     font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .name-main{
     color:#ff9d09;
 }
 .nametag{
     color:white;
-    padding:0rem 0rem  12rem 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:0rem 0rem  0rem 10rem;
 }
 .nametag-sub{
     color:red;
@@ -44,14 +50,37 @@ nav > a{
     margin-left: 0.5rem;
 
 }
+.social-links{
+    padding:10rem 0rem  6rem 10rem;
+    list-style: none;
+}
+.social-links > li{
+    display:inline-block;
+    padding: 0px 6px 0px 2px;
+}
+.fab
+{
+    color:white;
+    size: 10%;
+}
+.fab:hover{
+    color:orange;
+}
 #aboutme
 {
     margin: 0px;
     background-color: grey;
     padding: 3% 10%;
+    overflow: auto;
 }
 .aboutme-head
 {
     color:white;
     font-family: 'Times New Roman', Times, serif;
+}
+.aboutme-text1,.aboutme-text2
+{
+    font-size:150%;
+    color:white;
+    text-align: justify;
 }
