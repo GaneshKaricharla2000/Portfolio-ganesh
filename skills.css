@@ -1,0 +1,71 @@
+.skill-left,.skill-right
+{
+    background-color: rgba(0, 0, 0,0.8);
+    height: 620px;
+}
+.skill-left{
+    float:left;
+    width:50%;
+}
+.skill-right{
+    float:right;
+    width:50%;
+}
+.skl-stars > .fas
+{
+    color: skyblue;
+}
+.skl{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding:0px 0px 0px 40px;
+    width:40%;
+    font-size: 30px;
+    color: skyblue;
+}
+.skl-stars{
+    display: inline;
+    padding:0px 0px 0px 20px;
+}
+.skillbar
+{
+    width:100%;
+}
+.skills-name
+{
+    font-size: 110px;
+    padding:0px 0px 0px 300px;
+
+    margin: 0px;
+    color: yellow;
+}
+.skills-name >span{
+    color:rgba(248, 174, 114, 0.781);
+}
+.skl-intrest{
+    clear:both;
+}
+.skl-intrestlist
+{
+    list-style: none;
+    color: rgba(0, 0, 0,0.8);
+    font-weight: 600;
+}
+.skl-intrestlist > li{
+    display: inline;
+}
+.skl-intrestlist > li > p {
+    background-color: #5af271;
+    font-size: 30px; 
+    border-radius: 35px;
+    display: inline-block;
+    padding:15px 18px;
+    margin:20px 2px
+}
+.skl-intrestlist .fas,.skl-intrestlist .fab{
+    color: rgba(0, 0, 0,0.8);
+}
+.skl-stars >.iac{
+    color:gold;
+}
