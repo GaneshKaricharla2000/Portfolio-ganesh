@@ -68,7 +68,6 @@ nav > a:hover{
 .fab
 {
     color:white;
-    size: 10%;
     transition-duration: 0.5s;
 }
 .fab:hover{
