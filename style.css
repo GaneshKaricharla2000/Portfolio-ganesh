@@ -16,14 +16,18 @@ nav > a{
     text-decoration: none;
     color:rgba(11, 26, 240, 0.808);
     font-weight: 800;
-    padding:5px 30px;
+    padding:5px 20px;
     text-align: right;
     margin-left:80px;
+    transition-property: padding,color;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
 }
 nav > a:hover{
-    background-color:rgba(11, 26, 240, 0.808);
-    color:white;
+    background-color:rgba(130, 250, 114, 0.829);
+    color : rgba(0,0,0,0.5);
     border-radius: 25px;
+    padding :5px 35px;
 }
 #home{
     margin: 0rem;
@@ -65,7 +69,9 @@ nav > a:hover{
 {
     color:white;
     size: 10%;
+    transition-duration: 0.5s;
 }
 .fab:hover{
     color:orange;
+    transform: rotate(360deg);
 }
