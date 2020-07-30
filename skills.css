@@ -30,7 +30,8 @@
 }
 .skillbar
 {
-    width:100%;
+    width:95%;
+    margin:3px 0px;
 }
 .skills-name
 {
@@ -68,4 +69,16 @@
 }
 .skl-stars >.iac{
     color:gold;
+}
+.bar1, .bar2, .bar3, .bar4, .bar5, .bar6, .bar7{
+    border:1px solid white; 
+    border-radius:50px;
+    background-color: purple;
+}
+.bar1:hover, .bar2:hover, .bar3:hover, .bar4:hover, .bar5:hover, .bar6:hover, .bar7:hover
+{
+    border:1px solid white; 
+    border-radius:50px;
+    background-color: blue;
+    color:white;
 }
