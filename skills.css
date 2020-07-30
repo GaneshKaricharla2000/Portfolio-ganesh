@@ -21,7 +21,7 @@
     display: inline-block;
     padding:0px 0px 0px 40px;
     width:40%;
-    font-size: 30px;
+    font-size: 20px;
     color: skyblue;
 }
 .skl-stars{
@@ -31,7 +31,7 @@
 .skillbar
 {
     width:95%;
-    margin:3px 0px;
+    margin:20px 0px;
 }
 .skills-name
 {
@@ -69,6 +69,9 @@
 }
 .skl-stars >.iac{
     color:gold;
+}
+.bar1{
+    margin-top: 80px;
 }
 .bar1, .bar2, .bar3, .bar4, .bar5, .bar6, .bar7{
     border:1px solid white; 
