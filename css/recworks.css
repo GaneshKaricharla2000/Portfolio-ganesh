@@ -1,0 +1,38 @@
+#recw
+{
+    margin:100px 0px 10px 0px;
+}
+.proj{
+    margin:30px 70px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 25px;
+    border:none;
+    transition-property: all;
+    transition-delay: 0ms;
+    transition-duration: 0.5s;
+}
+.proj:hover{
+    background-color: blue;
+    transform: rotate(-10deg);
+}
+
+.proimg
+{
+    width:300px;
+    height:200px;
+    border:none;
+    border-radius: 25px;
+    transition-property: all;
+    transition-delay: 0ms;
+    transition-duration: 2s;
+}
+.proimg:hover{
+    opacity: 50%;
+
+}
+.projname
+{
+    color:white;
+    text-align: center;
+}
