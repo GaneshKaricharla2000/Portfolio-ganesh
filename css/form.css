@@ -1,0 +1,27 @@
+.conright >form
+{
+    margin:60px 20px 35px 20px;
+    color:white;
+}
+.indet{
+
+    padding:40px 40px 40px 0px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input
+{
+    border-radius: 25px;
+    border:none;
+    width:250%;
+    height:50px;
+}
+.incomment
+{
+    height: 80px;
+}
+.subbtn
+{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
