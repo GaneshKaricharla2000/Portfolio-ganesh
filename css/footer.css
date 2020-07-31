@@ -1,5 +1,10 @@
 footer{
     background-color: rgba(0,0,0,0.8);
-    padding:30px;
+    padding:35px;
     color:white;
+    margin: 500px 0px 0px 0px;
+}
+.footdet
+{
+    margin:10px 10px 0px 0px;
 }
