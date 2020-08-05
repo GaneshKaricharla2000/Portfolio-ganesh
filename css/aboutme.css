@@ -1,5 +1,7 @@
 #aboutme
 {
+    width: 100vw;
+    height:100vh;
     margin: 0px;
     background-color: grey;
     padding: 10% 10%;

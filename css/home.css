@@ -1,9 +1,15 @@
 #home{
     margin: 0rem;
+    width: 100vw;
+    height:100vh;
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     overflow: auto;
+}
+body{
+    margin:0px;
+    
 }
 .name{
     color:white;
@@ -22,8 +28,8 @@
 .nametag-sub{
     color:red;
     background-color: white;
-    padding: 0.2rem;
-    margin-left: 0.5rem;
+    padding: 0.2em;
+    margin-left: 0.5em;
 
 }
 .social-links{
@@ -42,4 +48,38 @@
 .fab:hover{
     color:orange;
     transform: rotate(360deg);
+}
+@media all and (max-width:720px)
+{
+    .name-main{
+        display: block;
+    }
+    .name{
+        color:white;
+        padding: 50vh 0vw 0vh 20vw;
+        font-size: 180%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .nametag{
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding:0vh 0vw  0vh 20vw;
+    }
+}
+@media all and (max-width:480px)
+{
+    .name-main{
+        display: block;
+    }
+    .name{
+        color:white;
+        padding:50vh 0vw 0vh 20vw;;
+        font-size: 130%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .nametag{
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding:0vh 0vw 0vh 20vw;
+    }
 }

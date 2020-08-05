@@ -1,10 +1,12 @@
 #experience{
     background-color: gold;
+    width: 100vw;
+    height:100vh;
   }
 .startexp{
   color:gold;
   margin:0px;
-  padding:4px;
+  padding:;
   }
 .xperience{
   float:right;
