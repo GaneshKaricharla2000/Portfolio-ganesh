@@ -1,27 +1,34 @@
+body{
+    margin:0px;
+}
 header{
     overflow: auto;
 }
 .navbar
 {
     width:100vw;
-    position:fixed;
+    position: fixed;
     background-color: white;
-    padding:2vh 0vw;
+    padding:0vh 0vw;
+    z-index: 3;
 }
 .navlist li{
    list-style-type: none;
    display: inline;
 }
-a{
-    display: inline;
-}
 .navbar a{
-    padding: 0vh 5vw;
+    display: inline;
+    padding: 2vh 5vw;
     text-decoration: none;
     font-size: 120%;
 }
+.navbar a:hover{
+    background-color: maroon;
+    color:white;
+}
 
-@media screen and (max-width:1332px)
+
+@media all and (max-width:1332px)
 {
     .navbar a{
         padding: 0vh 3vw;
@@ -30,7 +37,7 @@ a{
     }
 }
 
-@media screen and (max-width:696px)
+@media all and (max-width:696px)
 {
     .navbar a{
         padding: 0vh 2vw;
@@ -39,24 +46,28 @@ a{
     }
 }
 
-@media screen and (max-width:590px)
+@media all and (max-width:590px)
 {
     .navlist li
     {  
         display: inline-block;
         width:30%;
     }
-    .connav
+    .nav-contact a
     {
         display: none;
     }
 }
-@media screen and (max-width:400px)
+@media all and (max-width:400px)
 {
     .navlist li
     {  
         display: block;
         width:100%;
         text-align: center;
+    }
+    .nav-contact a
+    {
+        display: block;
     }
 }
